@@ -39,17 +39,15 @@ extern "C"
 #define EGLAPIENTRYP EGLAPIENTRY *
 #endif
 
-typedef fbdev_window * EGLNativeWindowType;
-
-typedef int32_t EGLNativePixmapType;
-
 typedef void * EGLNativeDisplayType;
+typedef void * EGLNativeWindowType;
+typedef void * EGLNativePixmapType;
 
 typedef EGLNativeWindowType NativeWindowType;
 typedef EGLNativePixmapType NativePixmapType;
 typedef EGLNativeDisplayType NativeDisplayType;
 
-typedef int32_t EGLint;
+typedef khronos_int32_t EGLint;
 
 #ifdef __cplusplus
 }

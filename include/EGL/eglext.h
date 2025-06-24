@@ -38,7 +38,7 @@ extern "C" {
 
 #include <EGL/eglplatform.h>
 
-#define EGL_EGLEXT_VERSION 20180411
+#define EGL_EGLEXT_VERSION 20240909
 
 /* Generated C header for:
  * API: egl
